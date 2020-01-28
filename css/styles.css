@@ -1,0 +1,61 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    height: 100%;
+    font-size: 12px;
+    font-family: Arial;
+}
+
+p, div {
+    box-sizing: border-box;
+}
+
+body > div {
+    border: 1px solid grey;
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+body > div::after {
+    content: ' ';
+    display: block;
+    clear: both;
+}
+
+div > div {
+    position: relative;
+    display: inline-block;
+    float: left;
+}
+
+a {
+    color: blue;
+}
+
+a:hover {
+    color: red;
+}
+
+ul {
+    padding-left: 10px;
+    margin: 0;
+    list-style-type: circle;
+}
+
+h1 {
+    text-align: center;
+}
+
+.first {
+    width: 25%;
+}
+
+.second {
+    width: 75%;
+    padding: 10px;
+    border-left: 1px solid grey;
+    font-size: 0.9em;
+}
